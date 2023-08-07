@@ -1,3 +1,3 @@
 # Dot
-Dot plot
-Dot plot based on value the scatter size will be vary
+
+Dot plot based on the value the scatter size will be vary
