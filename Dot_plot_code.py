@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
 from matplotlib.patches import Patch
 
-df = pd.read_excel(r"C:\Users\admin\Downloads\SLK_Autophagy (1).xlsx")
+df = pd.read_excel(r"dotplot.xlsx")
 
 def scale_number(unscaled, to_min, to_max, from_min, from_max):
     return (to_max - to_min) * (unscaled - from_min) / (from_max - from_min) + to_min
@@ -86,7 +86,7 @@ plt.tick_params(axis='x', labelsize=35)
 plt.tick_params(axis='y', labelsize=28) 
 plt.tight_layout() 
 
-plt.savefig("SLK_autophagy_plot_new1.svg", format="svg", bbox_inches='tight')
+plt.savefig("dot1.svg", format="svg", bbox_inches='tight')
 plt.show()
 
 
